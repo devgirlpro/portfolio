@@ -29,10 +29,22 @@ const Projects = () => (
         <BlogCard key={each.id}>
           <Img src={each.image} />
           <TitleContent>
-            <HeaderThree title>{each.title}</HeaderThree>
+            <HeaderThree>{each.title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{each.description}</CardInfo>
+          <div>
+            <TitleContent>Stack</TitleContent>
+            <TagList>
+              {each.tags.map((tag, i) => (
+                <Tag key={i}>{tag}</Tag>
+              ))}
+            </TagList>
+          </div>
+          <UtilityList>
+            <ExternalLinks href={each.visite}>Code</ExternalLinks>
+            <ExternalLinks href={each.source}>Source</ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
