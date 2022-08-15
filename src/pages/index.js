@@ -20,7 +20,7 @@ const Home = () => {
 
       <Timeline />
       <Acomplishments />
-      <BgAnimation />
+      {/* <BgAnimation /> */}
     </Layout>
   );
 };
