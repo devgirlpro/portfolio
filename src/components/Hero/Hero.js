@@ -24,12 +24,7 @@ const Hero = (props) => (
         Pellentesque efficitur lectus sed neque convallis, ac tempor ex finibus.
         Proin porta libero id dolor lobortis, nec maximus metus ultrices.
       </SectionText>
-      <Button
-        onClick={() =>
-          (window.location.href =
-            "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox")
-        }
-      >
+      <Button onClick={() => (window.location.href = "/")}>
         More About Me
       </Button>
     </LeftSection>
