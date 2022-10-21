@@ -67,11 +67,16 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-        inceptos himenaeos. Cras mollis at est venenatis malesuada. Nullam
-        convallis bibendum imperdiet. Ut mauris diam, efficitur vitae imperdiet
-        in, sodales et nisi. Nulla eu purus non urna dapibus venenatis. Aenean
-        consectetur massa urna, sed varius.
+      I graduated from high school with a diploma in physics and mathematics. 
+      After high school I completed a first class honours degree in computer software in Isfahan University, Iran. 
+      I moved to Berlin in 2017, there I studied programming for one year at the Digital Career Institute. 
+      In 2020, I created my own web design company “Reactshell” which allows me to operate as a freelance web developer. 
+      In 2022, I completed a 10 week intensive coding bootcamp with Ironhack. 
+
+      Web development is my passion and is a field in which I am continually upgrading my skills. 
+      I relish the opportunity to solve problems and apply creative solutions. 
+      Working with and learning from teammates also gives me great job satisfaction. 
+      I would like to continue to apply and develop my skills within a dynamic and forward looking environment.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
